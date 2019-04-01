@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="workingsets.xsd">
+  <projects>
+    <project>
+      <name>RTU_MK64FN1M0VLL12</name>
+      <path>..\..\rtu_frdm-k64\kds</path>
+      <open>true</open>
+      <activeconfig>debug</activeconfig>
+      <buildreferences config="debug">false</buildreferences>
+      <buildreferences config="release">false</buildreferences>
+    </project>
+    <project>
+      <name>ksdk_mqx_lib_MK64FN1M0VLL12</name>
+      <path>..\..\rtu_frdm-k64\lib\ksdk_mqx_lib\kds\K64F12</path>
+      <open>true</open>
+      <activeconfig>debug</activeconfig>
+      <buildreferences config="debug">false</buildreferences>
+      <buildreferences config="release">false</buildreferences>
+    </project>
+    <project>
+      <name>mfs_frdmk64f</name>
+      <path>..\..\rtu_frdm-k64\middleware\filesystem\mfs\build\kds\mfs_frdmk64f</path>
+      <open>true</open>
+      <activeconfig>debug</activeconfig>
+      <buildreferences config="debug">false</buildreferences>
+      <buildreferences config="release">false</buildreferences>
+    </project>
+    <project>
+      <name>modbus</name>
+      <path>..\..\rtu_frdm-k64\middleware\modbus\build\kds\modbus_frdmk64f</path>
+      <open>true</open>
+      <activeconfig>debug</activeconfig>
+      <buildreferences config="debug">false</buildreferences>
+      <buildreferences config="release">false</buildreferences>
+    </project>
+    <project>
+      <name>mqx_frdmk64f_all</name>
+      <path>..\..\rtu_frdm-k64\rtos\mqx\mqx\build\kds\mqx_frdmk64f</path>
+      <open>true</open>
+      <activeconfig>debug</activeconfig>
+      <buildreferences config="debug">false</buildreferences>
+      <buildreferences config="release">false</buildreferences>
+    </project>
+    <project>
+      <name>mqx_stdlib_frdmk64f_all</name>
+      <path>..\..\rtu_frdm-k64\rtos\mqx\mqx_stdlib\build\kds\mqx_stdlib_frdmk64f</path>
+      <open>true</open>
+      <activeconfig>debug</activeconfig>
+      <buildreferences config="debug">false</buildreferences>
+      <buildreferences config="release">false</buildreferences>
+    </project>
+    <project>
+      <name>nshell_frdmk64f</name>
+      <path>..\..\rtu_frdm-k64\rtos\mqx\nshell\build\kds\nshell_frdmk64f</path>
+      <open>true</open>
+      <activeconfig>debug</activeconfig>
+      <buildreferences config="debug">false</buildreferences>
+      <buildreferences config="release">false</buildreferences>
+    </project>
+    <project>
+      <name>rtcs_frdmk64f</name>
+      <path>..\..\rtu_frdm-k64\middleware\tcpip\rtcs\build\kds\rtcs_frdmk64f</path>
+      <open>true</open>
+      <activeconfig>debug</activeconfig>
+      <buildreferences config="debug">false</buildreferences>
+      <buildreferences config="release">false</buildreferences>
+    </project>
+  </projects>
+  <workingsets>
+    <workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" id="1477682252475_6" label="rtu" name="rtu"> 
+      <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/RTU_MK64FN1M0VLL12" type="4"/>  
+      <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ksdk_mqx_lib_MK64FN1M0VLL12" type="4"/>  
+      <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/nshell_frdmk64f" type="4"/>  
+      <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/mqx_frdmk64f_all" type="4"/>  
+      <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/mfs_frdmk64f" type="4"/>  
+      <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/rtcs_frdmk64f" type="4"/>  
+      <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/mqx_stdlib_frdmk64f_all" type="4"/>  
+      <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/modbus" type="4"/> 
+    </workingSet>
+  </workingsets>
+  <cdtconfigurations>
+    <workingSet name="rtu"> 
+      <config name="debug"> 
+        <project config="ilg.gnuarmeclipse.managedbuild.cross.config.lib.debug.660039418" name="ksdk_mqx_lib_MK64FN1M0VLL12" configName="debug"/>  
+        <project config="ilg.gnuarmeclipse.managedbuild.cross.config.lib.debug.202482942" name="rtcs_frdmk64f" configName="debug"/>  
+        <project config="ilg.gnuarmeclipse.managedbuild.cross.config.lib.debug.202482942" name="mqx_frdmk64f_all" configName="debug"/>  
+        <project config="ilg.gnuarmeclipse.managedbuild.cross.config.lib.debug.202482942" name="nshell_frdmk64f" configName="debug"/>  
+        <project name="modbus"/>  
+        <project config="ilg.gnuarmeclipse.managedbuild.cross.config.lib.debug.202482942" name="mfs_frdmk64f" configName="debug"/>  
+        <project config="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.1792027861" name="RTU_MK64FN1M0VLL12" configName="debug"/>  
+        <project config="ilg.gnuarmeclipse.managedbuild.cross.config.lib.debug.202482942" name="mqx_stdlib_frdmk64f_all" configName="debug"/> 
+      </config>  
+      <config name="release"> 
+        <project config="ilg.gnuarmeclipse.managedbuild.cross.config.lib.release.355096884" name="ksdk_mqx_lib_MK64FN1M0VLL12" configName="release"/>  
+        <project config="ilg.gnuarmeclipse.managedbuild.cross.config.lib.release.1709515315" name="rtcs_frdmk64f" configName="release"/>  
+        <project config="ilg.gnuarmeclipse.managedbuild.cross.config.lib.release.1709515315" name="mqx_frdmk64f_all" configName="release"/>  
+        <project config="ilg.gnuarmeclipse.managedbuild.cross.config.lib.release.1709515315" name="nshell_frdmk64f" configName="release"/>  
+        <project name="modbus"/>  
+        <project config="ilg.gnuarmeclipse.managedbuild.cross.config.lib.release.1709515315" name="mfs_frdmk64f" configName="release"/>  
+        <project config="ilg.gnuarmeclipse.managedbuild.cross.config.elf.release.1939339834" name="RTU_MK64FN1M0VLL12" configName="release"/>  
+        <project config="ilg.gnuarmeclipse.managedbuild.cross.config.lib.release.1709515315" name="mqx_stdlib_frdmk64f_all" configName="release"/> 
+      </config> 
+    </workingSet>
+  </cdtconfigurations>
+</workspace>

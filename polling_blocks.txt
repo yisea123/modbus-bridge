@@ -1,0 +1,3 @@
+address=40010,quantity=19,scantime=0,mapping=40001
+address=40040,quantity=4,scantime=0,mapping=40019
+address=40061,quantity=9,scantime=0,mapping=40023
